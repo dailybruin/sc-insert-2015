@@ -3,7 +3,7 @@
 	overflow-x: hidden;
 }
 
-#bb-bookblock {
-	height: 90vh;
-	width: 100vh;
+.bb-custom-wrapper{
+	height: 100%;
+	
 }

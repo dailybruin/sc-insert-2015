@@ -2,3 +2,8 @@
 	overflow-y: hidden;
 	overflow-x: hidden;
 }
+
+#bb-bookblock {
+	height: 90vh;
+	width: 100vh;
+}

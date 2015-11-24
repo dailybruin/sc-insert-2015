@@ -31,13 +31,13 @@ body {
 
 .embedded-img {
 	float: right;
-	width: 35vw;
 	margin: 2rem;
+	max-width: 35vw;
 }
+
 
 @media only screen and (max-width: 40em) { 
 	.embedded-img {
-		float: none;
 		width: 100%;
 		margin: 0;
 	}

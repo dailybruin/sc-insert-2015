@@ -2,6 +2,10 @@ body {
     font-family: 'Lato', Calibri, Arial, sans-serif;
 }
 
+.featured{
+    float: middle;
+}
+
 .disableScroll {
 	overflow-y: hidden;
 	overflow-x: hidden;
@@ -13,6 +17,7 @@ body {
 	padding-left: 2rem;
 	padding-right: 2rem;
 	margin: auto;
+    margin-top: 2em;
 }
 
 .embedded-img {

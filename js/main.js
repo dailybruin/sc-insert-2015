@@ -1,9 +1,9 @@
 // https://docs.google.com/spreadsheets/d/1aD9FjfUtjfYak76rvaVpyhkpLBV2IWYBMEIX15WMn7o/edit#gid=0
-var sheetID = "1XdNtwjMTO_tAaVRVr8UH-SL_qovIv9DYBGFRl5IyqnY";
+var sheetID = "1aD9FjfUtjfYak76rvaVpyhkpLBV2IWYBMEIX15WMn7o";
 
 // Handlebars variables
 var body_template_html = $("#body-template").html();
-var body_template = Handlebars.compile(body_template_html);
+//var body_template = Handlebars.compile(body_template_html);
 
 
 Handlebars.registerHelper("formatBodyText", function(t) {
@@ -22,11 +22,20 @@ $(document).ready(function() {
 		data = clean_google_sheet_json(data);
 		console.log(data);
 
-		$.each(data, function(key, obj) {
+		// $.each(data, function(key, obj) {
 
+		// });
+
+
+		$("#bb-bookblock").bookblock({
+			speed : 1000,
+			shadowSides : 0.8,
+			shadowFlip : 0.4
 		});
-
 	});
+
+
+
 
 })
 

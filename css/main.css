@@ -18,7 +18,7 @@ body {
 
 .content-container {
 	max-width: 900px;
-	padding-left: 2rem;
+	padding-left: 4rem;
 	padding-right: 2rem;
 	margin: auto;
     margin-top: 2em;
@@ -33,7 +33,7 @@ body {
 }
 
 .content-wide {
-	padding-left: 2rem;
+	padding-left: 4rem;
 	padding-right: 2rem;
 }
 

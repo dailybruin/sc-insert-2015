@@ -2,6 +2,11 @@ body {
     font-family: 'Lato', Calibri, Arial, sans-serif;
 }
 
+.fullWidth {
+	padding-left: 0px;
+	padding-right: 0px;
+}
+
 .featured{
     float: middle;
 }
@@ -12,11 +17,19 @@ body {
 }
 
 .content-container {
-	max-width: 740px;
+	max-width: 900px;
 	padding-left: 2rem;
 	padding-right: 2rem;
 	margin: auto;
     margin-top: 2em;
+}
+
+.credit {
+	font-size: 0.8rem;
+	color: #2F2F2F;
+	margin-top: 0.6rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
 }
 
 .content-wide {
@@ -27,6 +40,7 @@ body {
 #coverimg {
 	max-height: 100vh;
 	margin: auto;
+	float: right;
 }
 
 .embedded-img {
@@ -35,6 +49,13 @@ body {
 	max-width: 35vw;
 }
 
+#covertext-small {
+	display: none;
+}
+
+#coverimgdiv {
+
+}
 
 @media only screen and (max-width: 40em) { 
 	.embedded-img {
@@ -45,15 +66,24 @@ body {
 	#coverimg {
 		max-height: none;
 		width: 100%;
-		position: absolute;
 	}
-
-	#covertext {
+	#med-cover-text {
+		display: none;
+	}
+	#covertext-small {
+		display: block;
 		position: absolute;
 		bottom: 0;
 	    background-color: rgba(255,255,255,0.7);
 		width: 100%;
 		padding-bottom: 3rem;
+	}
+
+}
+
+@media only screen and (min-width: 64.063em) { 
+	.embedded-img {
+		max-width: 22vw;
 	}
 }
 
@@ -71,6 +101,16 @@ nav a {
     color: #fff;
     font-size: 0;
     margin: 2px;
+}
+
+nav {
+    width: 5vh;
+    height: auto;
+    margin: 1em auto 0;
+    position: fixed;
+    z-index: 1000;
+    text-align: center;
+    bottom: -1vh;
 }
 
 .bb-custom-icon:before {

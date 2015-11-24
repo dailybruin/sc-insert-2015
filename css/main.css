@@ -7,7 +7,21 @@ body {
 	overflow-x: hidden;
 }
 
-.bb-custom-wrapper{
+
+.content-container {
+	max-width: 740px;
+	padding-left: 2rem;
+	padding-right: 2rem;
+	margin: auto;
+}
+
+.embedded-img {
+	float: right;
+	max-width: 35vw;
+	margin: 2rem;
+}
+
+.bb-custom-wrapper {
 	height: 100%;	
 }
 

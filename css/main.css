@@ -1,3 +1,5 @@
+
+
 body {
     font-family: 'Lato', Calibri, Arial, sans-serif;
 }
@@ -110,11 +112,10 @@ nav {
     position: fixed;
     z-index: 1000;
     text-align: center;
-    bottom: -1vh;
+    margin-left: 10px;
 }
 
-.bb-custom-icon:before {
-    font-family: 'arrows';
+.fa {
     speak: none;
     font-style: normal;
     font-weight: normal;
@@ -128,10 +129,4 @@ nav {
 }
 
 
-.bb-custom-icon-first:before, .bb-custom-icon-last:before {
-    content: "\e002";
-}
 
-.bb-custom-icon-arrow-left:before, .bb-custom-icon-arrow-right:before {
-    content: "\e003";
-}

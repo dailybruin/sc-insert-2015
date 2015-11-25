@@ -1,8 +1,8 @@
 
-
 body {
     font-family: 'Lato', Calibri, Arial, sans-serif;
 }
+
 
 .fullWidth {
 	padding-left: 0px;
@@ -34,6 +34,11 @@ body {
     margin-right: 1rem;
 }
 
+#plate{
+	float: right;
+    padding: 1em;
+}
+
 .content-wide {
 	padding-left: 4rem;
 	padding-right: 2rem;
@@ -52,7 +57,12 @@ body {
 }
 
 #covertext-small {
+    text-align: center;
 	display: none;
+}
+
+#covertext{
+	margin-top: 45%;
 }
 
 #coverimgdiv {
